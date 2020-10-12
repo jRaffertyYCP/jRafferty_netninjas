@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>HTML Forms</title>
+  </head>
+
+  <body>
+
+    <h1>HTML Forms</h1>
+
+    <form>
+      <label for="username">enter username:</label> <br>
+      <input type="text" id="username" name="username" placeholder="username" required>
+      <br> <br>
+      <label for="email">email:</label> <br>
+      <input type="email" id="email" name="email" placeholder="your email" required>
+      <br><br>
+      <label for="password">password:</label> <br>
+      <input type="password" id="password" name="password" placeholder="choose a password" required>
+
+      <br><br><br>
+
+      <p>Select your Gender:</p>
+
+      <label for="genderMale">Male</label>
+      <input type="radio" id="genderMale" name="gender" value="male">
+      <br>
+      <label for="genderFemale">Female</label>
+      <input type="radio" id="genderFemale" name="gender" value="female">
+      <br>
+      <label for="genderOther">Other</label>
+      <input type="radio" id="genderOther" name="gender" value="other">
+
+      <br><br><br>
+
+      <label for="question">Security Question:</label>
+      <select name="question" id="question">
+        <option value="q1">What colour are your favorite socks?</option>
+        <option value="q2">If you could be a vegetable, what it be?</option>
+        <option value="q3">What is your best ever security question?</option>
+      </select>
+
+      <br>
+
+      <label for="answer">Answer:</label>
+      <input type=text id=answer name="answer">
+
+      <br><br><br>
+
+      <label for="bio">Your Bio:</label><br>
+      <textarea name="bio" rows="5" cols="30"placeholder="about you..."></textarea>
+
+      <br><br><br>
+
+      <input type="submit" name="submitButton" value="submit the form">
+
+    </form>
+
+  </body>
+
+</html>
